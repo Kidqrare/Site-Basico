@@ -1,1 +1,1 @@
-Um template básico de site utilizando html e css com seletor de categorias
+# Um template básico de site utilizando html e css com seletor de categorias
