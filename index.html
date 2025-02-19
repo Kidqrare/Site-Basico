@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalho Carboidratos</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- index.html simples com css-->
+<!--    Feito Por Kidqrare   -->
+<!--   18/02/2025  -->
+<!--        Direitos Reservados        -->
+<nav role="navigation">
+  <div id="menuToggle">
+<!--
+    Uma caixa de seleção falsa/oculta é usada como receptor de cliques,
+    então você pode usar o seletor :checked nele.
+    -->
+    <input type="checkbox" id="menuCheckbox" />
+    
+
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+<!-- Podemos usar um rótulo aqui para fechar ao clicar (ao navegar na mesma página), mas requer um pouco de JS. -->
+      <li>
+        <a href="#">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Inicio</label>
+        </a>
+      </li>
+      <li>
+        <a href="#Sobre">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Sobre</label>
+        </a>
+      </li>
+      <li>
+        <a href="#Informações">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Informações</label>
+        </a>
+      </li>
+      <li>
+        <a href="#Contato">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Contato</label>
+        </a>
+      </li>
+      <li>
+        <a href="#Sobre Nós">
+          <label for="menuCheckbox" onclick="this.parentNode.click();">Sobre Nós</label>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<main>
+  <h1>Base Texto</h1>
+  <p>linha 1</p>
+
+  <p>linha 2</p>
+  
+  <p>linha 3</p>
+
+  
+  <h2 id="Sobre">Sobre</h2>
+  <p>linha 1</p>
+
+  <p>linha 2</p>
+  
+  <p>linha 3</p>
+  
+</main>
+</body>
+</html>
